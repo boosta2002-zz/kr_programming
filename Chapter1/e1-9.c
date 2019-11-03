@@ -21,7 +21,6 @@ main()
                 c = getchar();
             }
 
-
         }
 
         putchar(c);
