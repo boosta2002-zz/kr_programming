@@ -8,7 +8,9 @@ int main(void) {
 */
 
 int main(void) {
-    printf("%s\n",i2b(240));
+    int x = 1;
+    x<<1;
+    printf("%d\n", x);
 }
 
 
