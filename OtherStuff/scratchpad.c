@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "busta.h"
-
+#include <ctype.h>
 /*
 int main(void) {
 
@@ -8,10 +8,21 @@ int main(void) {
 */
 
 int main(void) {
+    int check;
+    check = (isdigit('a')) ? 1 : 0 ;
+    printf("%d", check);
+
+}
+
+
+/*
+int main(void) {
     int x = 1;
     x<<1;
     printf("%d\n", x);
 }
+
+*/
 
 
 
