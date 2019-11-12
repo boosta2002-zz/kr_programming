@@ -8,9 +8,13 @@ int main(void) {
 */
 
 int main(void) {
-    int check;
-    check = (isdigit('a')) ? 1 : 0 ;
-    printf("%d", check);
+signed int n_min = INT_MIN; 
+signed int n_max = INT_MAX;
+signed int n = INT_MIN;
+n = -(n);
+printf("n_min is %d\n", n_min);
+printf("n_min is %d\n", n_max);
+printf("now: %u\n", n);
 
 }
 
